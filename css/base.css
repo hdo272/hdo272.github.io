@@ -101,16 +101,17 @@
 	
 	.top-space { width: 100%; height: 40px; }
 	
-	.section-height { height: 635px; }
+	.section-height { height: 750px; }
 	.short-height { min-height: /*525px*/ 825px; }
 	.short-height.reservation h2 { margin-top: 270px; }
 	
 	#c1 {position: absolute; height: 100%; left: 0%; right: 66%; background-image:url(../images/bg/artist2.jpg); background-position:center; 
  		background-size:cover; background-repeat:no-repeat;}
- 	#c2 {position: absolute; height: 100%; left: 33%; right: 33%; background-image:url(../images/bg/student2.png); background-position:center; 
+ 	#c2 {position: absolute; height: 100%; left: 33%; right: 33%; background-image:url(../images/bg/photographer.jpg); background-position:center; 
  		background-size:cover; background-repeat:no-repeat;}
-  	#c3 {position: absolute; height: 100%; left: 66%; right: 0%; background-image:url(../images/bg/photographer.jpg); background-position:center; 
+  	#c3 {position: absolute; height: 100%; left: 66%; right: 0%; background-image:url(../images/bg/student2.png); background-position:center; 
  		background-size:cover; background-repeat:no-repeat;}
+ 	.home .arrow {width: 10%;}
 
  	.home-text { color: #fff; font-size: 24px; text-align: center; margin-top: 65px; }
  	.home-reservation { color: #fff; border: 2px solid #fff; font-size: 18px; text-align: center; margin-top: 50px; padding: 15px 30px 12px; width: 200px; display: block; margin: 50px auto 0; }
