@@ -101,7 +101,7 @@
 	
 	.top-space { width: 100%; height: 40px; }
 	
-	.section-height { height: 750px; }
+	.section-height { height: 800px; }
 	.short-height { min-height: /*525px*/ 825px; }
 	.short-height.reservation h2 { margin-top: 270px; }
 	
@@ -109,7 +109,7 @@
  		background-size:cover; background-repeat:no-repeat;}
  	#c2 {position: absolute; height: 100%; left: 33%; right: 33%; background-image:url(../images/bg/photographer.jpg); background-position:center; 
  		background-size:cover; background-repeat:no-repeat;}
-  	#c3 {position: absolute; height: 100%; left: 66%; right: 0%; background-image:url(../images/bg/student2.png); background-position:center; 
+  	#c3 {position: absolute; height: 100%; left: 67%; right: 0%; background-image:url(../images/bg/student2.png); background-position:center; 
  		background-size:cover; background-repeat:no-repeat;}
  	.home .arrow {width: 10%;}
 
@@ -147,7 +147,10 @@
  	.reservation { background: #324a69; background: url('../images/reservations.jpg') no-repeat center center; background-size: cover; }
  	#OT_searchWrapperAll form #OT_searchWrapper, #OT_searchWrapper select, #OT_searchWrapper input  { font-family: "arno-pro", Georgia, serif !important; }
  	#OT_searchWrapper select, #OT_searchWrapper input { font-size: 125%; }
- 	
+ 	#col1 {position: absolute; height: 100%; left: 0%; right: 66%;}
+ 	#col2 {position: absolute; height: 100%; left: 33%; right: 33%;}
+  	#col3 {position: absolute; height: 100%; left: 33%; right: 12%;}
+
  	.gift { background: url('../images/gift-v2.jpg') no-repeat center center; background-size: cover; }
  	.gift h2, .gift p { color: #fff; }
  	.gift h2 { margin-top: 200px; }
