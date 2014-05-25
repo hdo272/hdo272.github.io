@@ -99,9 +99,9 @@
 	a#facebook { background: url(../images/facebook.png); width: 14px; height: 14px; background-size: cover; }
 	a#tumblr { background: url(../images/tumblr.png); width: 14px; height: 14px; background-size: cover; }
 	
-	.top-space { width: 100%; height: 40px; }
+	.top-space { width: 100%; height: 3px; }
 	
-	.section-height { height: 800px; }
+	.section-height { height: 660px; }
 	.short-height { min-height: /*525px*/ 825px; }
 	.short-height.reservation h2 { margin-top: 270px; }
 	
@@ -121,7 +121,6 @@
  	.home-button a:hover { background: #fff; color: #222 !important; }
  	
  	.philosophy { background: url('../images/bridge-bg.jpg') no-repeat center center; background-size: cover; }
- 	.philosophy h2 { margin-top: 180px; }
  	
  	.justin { background: url('../images/justin-bg-v3.jpg') no-repeat center center; background-size: cover; }
  	.justin h2 { margin-top: 212px; }
@@ -151,13 +150,10 @@
  	#col2 {position: absolute; height: 100%; left: 33%; right: 33%;}
   	#col3 {position: absolute; height: 100%; left: 33%; right: 12%;}
 
- 	.gift { background: url('../images/gift-v2.jpg') no-repeat center center; background-size: cover; }
+ 	.gift { background: url('../images/bg/findme.jpg') no-repeat center center; background-size: cover; }
  	.gift h2, .gift p { color: #fff; }
  	.gift h2 { margin-top: 200px; }
- 	.gift-button { margin-top: 50px; }
-    .gift-button a { color: #fff !important; padding: 12px 20px 10px; width: 200px; text-decoration: none; border: 2px solid #fff; font-weight: 600;
-    	font-family: "proxima-nova-condensed", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
- 	.gift-button a:hover { background: #fff; color: #222 !important; }
+ 	.gift .circle {width: 10%;}
  	
  	.events { background: #682023; background: url('../images/events.jpg') no-repeat center center; background-size: cover; min-height: 950px; }
  	.events h2 { margin-top: 100px; }
@@ -172,11 +168,9 @@
  	.special-event-text p { font-size: 18px; line-height: 23px; }
  	.special-event-text b { color: #fff; font-size: 23px; line-height: 26px; }
  	
- 	.watch { background: url('../images/watch.jpg') no-repeat center center; background-size: cover; min-height: 1250px; padding-bottom: 100px; }
- 	.watch h2 { margin-top: 100px; }
- 	.watch h2, .watch p { color: #222; }
+ 	.watch { background: url('../images/bg/hi.jpg') no-repeat center center; background-size: cover; min-height: 800px; padding-bottom: 100px; }
+ 	.watch h2 { margin-top: 100px;}
  	.watch iframe { margin-top: 30px; }
- 	.watch p { padding: 0 65px; }
  	
  	.press { background: #fff; color: #333; }
  	.press .inquiries { margin-top: 80px; }
@@ -209,7 +203,7 @@
 		letter-spacing: 2px; }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px;}
-	h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; margin-top: 200px; }
+	h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; margin-top: 100px; }
 	h3 { font-size: 28px; line-height: 34px; margin-bottom: 8px; }
 	h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
 	h5 { font-size: 17px; line-height: 24px; }

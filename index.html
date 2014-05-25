@@ -41,32 +41,34 @@
 	/* ]]> */
 	</script>
 
+	<!--for smooth scrolling-->
+	<script src="js/smooth-scroll.js"></script>
 
 
 </head>
 <body>
-
 	<section class="home section-height" id="home">
 			<div class="sixteen columns">
 				<div>
 					<div id = "c1">
-						<h2> ARTIST </h2>
-						<a href = "#philosophy"><img class = "arrow" src = "images/bg/artistarrow.png"></a>
+						<h2 style = "margin-top: 200px"> ARTIST </h2>
+						<a data-scroll href = "#philosophy"><img class = "arrow" src = "images/bg/artistarrow.png"></a>
 					</div>
 					<div id = "c2">
-						<h2> STUDENT </h2>
-						<a href = "#reservation"><img class = "arrow" src = "images/bg/studentarrow.png"></a>
+						<h2 style = "margin-top: 200px"> STUDENT </h2>
+						<a data-scroll href = "#watch"><img class = "arrow" src = "images/bg/studentarrow.png"></a>
 					</div>
 					<div id = "c3">
-						<h2> CODER </h2>
-						<img class = "arrow" src = "images/bg/coderarrow.png">
+						<h2 style = "margin-top: 200px"> INNOVATOR </h2>
+						<a data-scroll href = "#food-drink"><img class = "arrow" src = "images/bg/coderarrow.png"></a>
 					</div>
 				</div>
 			</div>
 	</section>
-
-<section class="philosophy snap" id="philosophy">
+	
+<section class="philosophy snap" id="philosophy" style = "margin-top: 80px" >
 	<section class="patti-grid" id="gridwrapper_luq" data-token="xcGpT">
+		<h2 style = "color: gray"> Art </h2>
 		<section id="options">
         <ul id="filters" class="option-set clearfix" data-option-key="filter">
             <li><a href="#filter" data-option-value="*" class="selected active">All</a></li>
@@ -128,7 +130,19 @@
 	</section>
 </section>
 
-	<section class="reservation short-height snap" id="reservation">
+	<section class="watch section-height" id="watch">
+		<div class="container">
+			<div class="sixteen columns">
+				<h2>I'm Hillary Do</h2>
+				
+				<iframe src="http://overture.me/hillary" width="800" height="451" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+				<br><br>
+				<a data-scroll href = "#reservation"><img src = "images/bg/more.png" style = "width: 6%"></img></a>
+			</div>
+		</div>
+	</section>
+
+	<section class="reservation short-height snap" id="reservation" style = "margin-top: 80px">
 		<div id = "col1">
 			<img src = "images/student/me.png" style = "width: auto; height: 550px;">
 		</div>
@@ -145,8 +159,8 @@
 		</div>
 	</section>
 
-	<section class="food-drink section-height snap" id="food-drink">
-			<h2 style = "color: gray"> Projects </h2>
+	<section class="food-drink section-height snap" id="food-drink" style = "margin-top: -300px; margin-bottom: 200px">
+			<h2 style = "color: gray; margin-top: 140px"> Projects </h2>
             <div id="work">
                 <ul>
                 <li style="display: list-item; float: left; margin-left: 0.5%">
@@ -176,11 +190,23 @@
                     <h2>License <br>Plate <br>Recognition</h2>
                 </a>
                 </li>
+                <li style="display: list-item; float: left; margin-left: 0.5%; margin-top: 0.5%">
+                <a href="https://github.com/CityOfPhiladelphia/data.gov" target = "_blank">
+                    <img src="images/projects/philly.jpg" alt="Project preview">
+                    <span>View Project</span>
+                    <h2>Open Data Philly API</h2>
+                </a>
+                </li>
                 </ul>
             </div>
 	</section>
 
-
+	<section class="gift section-height" id="gift">
+		<div class = "top-space"></div>
+		<h2> FIND ME </h2>
+		<a href = "mailto:hillaryjiado@college.harvard.edu"><img src = "images/find/mail.png" class = "circle"></img></a>
+		<a href = "https://www.linkedin.com/in/hillarydo"><img src = "images/find/linked.png" class = "circle"></img></a>
+	</section>
 	<!--Javascript files -->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="js/scrollTo.js"></script>
@@ -247,7 +273,9 @@
 	  ga('send', 'pageview');
 	
 	</script>
-
+	<script>
+    smoothScroll.init();
+	</script>
 
 </body>
 </html>
