@@ -75,6 +75,7 @@
                         <!-- Content -->
                             <div class="content">
                                 <section id="what is a sketchy neighborhood?">
+                                    <link rel="image_src" href="images/sketchy.png" />
                                     <div class="image featured"><img src="images/sketchy.png" alt="" /></div>
                                     <header>
                                         <h2>Since When Did We Start Using “Sketchy” to Describe Low-Income Minority Neighborhoods?</h2>
