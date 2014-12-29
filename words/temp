@@ -3,7 +3,6 @@
     Twenty by HTML5 UP
     html5up.net | @n33co
     Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-    http://jekyllrb.com/docs/github-pages/
 -->
 <html>
     <head>
@@ -65,11 +64,11 @@
         <!-- Main -->
             <article id="main">
 
-<!--                 <header class="special container">
+                <header class="special container">
                     <span class="icon fa-pencil"></span>
                     <h2>Some <strong>Words</strong></h2>
                     <p>editor-free ponderings from yours truly</p>
-                </header> -->
+                </header>
                     
                 <!-- One -->
                     <section class="wrapper style4 container">
