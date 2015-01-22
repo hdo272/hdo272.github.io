@@ -24,7 +24,73 @@
 			<link rel="stylesheet" href="css/style-wide.css" />
 			<link rel="stylesheet" href="css/style-noscript.css" />
 		</noscript>
+		<!--Full Calendar-->
+		<link href='calendar/fullcalendar.css' rel='stylesheet' />
+		<link href='calendar/fullcalendar.print.css' rel='stylesheet' media='print' />
+		<script src='calendar/lib/moment.min.js'></script>
+		<script src='calendar/lib/jquery.min.js'></script>
+		<script src='calendar/fullcalendar.min.js'></script>
+		<script src='calendar/gcal.js'></script>
+		<script>
 
+		    $(document).ready(function() {
+		    
+		        $('#calendar').fullCalendar({
+		            googleCalendarApiKey: 'AIzaSyB2xXtL8hq71tMACO_YNLTda-Yw6qXCPPU',
+
+		            header: {
+		                left: 'prev, next, today',
+		                center: 'title',
+		                right: 'month, agendaWeek, agendaDay',
+		            },
+
+		            eventSources: [
+		                {
+		                    googleCalendarId: 'usa__en@holiday.calendar.google.com'
+		                },
+		                {
+		                    googleCalendarId: 'hillaryjiado@gmail.com',
+		                    className: 'nice-event'
+		                }
+		            ],
+		            
+		            /*eventClick: function(event) {
+		                // opens events in a popup window
+		                window.open(event.url, 'gcalevent', 'width=700,height=600');
+		                return false;
+		            },*/
+		            
+		            loading: function(bool) {
+		                $('#loading').toggle(bool);
+		            }
+		            
+		        });
+		        
+		    });
+
+		</script>
+		<style>
+		    body {
+		        margin: 40px 10px;
+		        padding: 0;
+		        font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+		        font-size: 14px;
+		    }
+		        
+		    #loading {
+		        display: none;
+		        position: absolute;
+		        top: 10px;
+		        right: 10px;
+		    }
+
+		    #calendar {
+		        max-width: 900px;
+		        margin: 0 auto;
+		    }
+
+		</style>
+		<!--End FullCalendar-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
 	</head>
