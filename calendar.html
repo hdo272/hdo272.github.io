@@ -24,12 +24,16 @@
                 center: 'title',
                 right: 'month, agendaWeek, agendaDay',
             },
-        
-            // US Holidays
-            events: {
-                googleCalendarId: 'usa__en@holiday.calendar.google.com',
-                googleCalendarId: 'hillaryjiado@gmail.com',
-            },
+
+            eventSources: [
+                {
+                    googleCalendarId: 'usa__en@holiday.calendar.google.com'
+                },
+                {
+                    googleCalendarId: 'hillaryjiado@gmail.com',
+                    className: 'nice-event'
+                }
+            ]
             
             /*eventClick: function(event) {
                 // opens events in a popup window
